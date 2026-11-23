@@ -1,0 +1,23 @@
+{
+    "name": "EditorScripts",
+    "rootNamespace": "",
+    "references": [
+        "Core",
+        "Gameplay",
+        "Signals",
+        "View",
+        "Utils",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

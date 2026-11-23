@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a2f7207873477d903779ef8b4080cc, type: 3}
+  m_Name: Level_15
+  m_EditorClassIdentifier: Core::Core.Data.Level.LevelData
+  _levelId: 15
+  _levelName: Mixed_Finale
+  _levelOrder: 15
+  _width: 9
+  _height: 9
+  _activeColorCount: 6
+  _nonPlayableDataFile: {fileID: 0}
+  _nonPlayableCells: []
+  _limitType: 0
+  _moveLimit: 30
+  _timeLimitSeconds: 0
+  _pointsPerTile: 10
+  _goalDataFile: {fileID: 0}
+  _goals:
+  - TargetType: 15
+    TargetCount: 2
+    Kind: 0
+  - TargetType: 12
+    TargetCount: 2
+    Kind: 1
+  - TargetType: 9
+    TargetCount: 8
+    Kind: 0
+  _enableHints: 1
+  _hintDelaySeconds: 4.5
+  _useRandomPlacement: 1
+  _randomObstacleType: 2
+  _randomObstacleCount: 8
+  _obstacleDataFile: {fileID: 0}
+  _obstaclePlacements: []

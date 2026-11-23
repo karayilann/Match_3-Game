@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a2f7207873477d903779ef8b4080cc, type: 3}
+  m_Name: Level_03
+  m_EditorClassIdentifier: Core::Core.Data.Level.LevelData
+  _levelId: 3
+  _levelName: 3. Sert Kayalar
+  _levelOrder: 3
+  _width: 8
+  _height: 8
+  _activeColorCount: 5
+  _nonPlayableDataFile: {fileID: 0}
+  _nonPlayableCells: []
+  _limitType: 0
+  _moveLimit: 25
+  _timeLimitSeconds: 0
+  _pointsPerTile: 10
+  _goalDataFile: {fileID: 0}
+  _goals:
+  - TargetType: 8
+    TargetCount: 8
+  - TargetType: 4
+    TargetCount: 20
+  _enableHints: 1
+  _hintDelaySeconds: 4.5
+  _useRandomPlacement: 0
+  _randomObstacleType: 0
+  _randomObstacleCount: 0
+  _obstacleDataFile: {fileID: 0}
+  _obstaclePlacements:
+  - X: 1
+    Y: 1
+    Type: 1
+  - X: 6
+    Y: 1
+    Type: 1
+  - X: 1
+    Y: 6
+    Type: 1
+  - X: 6
+    Y: 6
+    Type: 1
+  - X: 3
+    Y: 2
+    Type: 1
+  - X: 4
+    Y: 2
+    Type: 1
+  - X: 3
+    Y: 5
+    Type: 1
+  - X: 4
+    Y: 5
+    Type: 1

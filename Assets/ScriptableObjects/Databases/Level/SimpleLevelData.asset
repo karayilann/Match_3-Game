@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a2f7207873477d903779ef8b4080cc, type: 3}
+  m_Name: SimpleLevelData
+  m_EditorClassIdentifier: Core::Core.Data.Level.LevelData
+  _levelId: 0
+  _levelName: Simple
+  _levelOrder: 1
+  _width: 8
+  _height: 8
+  _activeColorCount: 6
+  _nonPlayableDataFile: {fileID: 4900000, guid: 0d2a0ace4762c4a4ea0db371673ae18a, type: 3}
+  _nonPlayableCells: []
+  _limitType: 0
+  _moveLimit: 20
+  _timeLimitSeconds: 0
+  _pointsPerTile: 10
+  _goalDataFile: {fileID: 4900000, guid: f83871af5f514694a9536bc288c55c07, type: 3}
+  _goals: []
+  _useRandomPlacement: 0
+  _randomObstacleType: 0
+  _randomObstacleCount: 6
+  _obstacleDataFile: {fileID: 4900000, guid: afca70377d2e735428226d2b44e715a7, type: 3}
+  _obstaclePlacements:
+  - X: 3
+    Y: 3
+    Type: 0
+  - X: 5
+    Y: 4
+    Type: 0
